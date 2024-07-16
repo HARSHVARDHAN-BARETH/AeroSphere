@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ReadPass.css */
+
+.container-read {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .title {
+    font-size: 24px;
+    color: crimson;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .links {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .link {
+    color: blue;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  .user-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-card ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-card li {
+    margin-bottom: 10px;
+  }
+  
+  .choose-link {
+    color: blue;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .choose-link:hover {
+    text-decoration: underline;
+  }
+  
+
+  /* CreatePass.css */
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .home-link {
+    display: block;
+    margin-bottom: 20px;
+    color: blue;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .home-link:hover {
+    text-decoration: underline;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-label {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .form-input, .form-select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-submit {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-submit:hover {
+    background-color: darkblue;
+  }
+  

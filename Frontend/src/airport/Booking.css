@@ -1,0 +1,98 @@
+/* Container for the booking cards */
+.bookingContainer{
+
+  max-width: 800px;
+    margin: 2vw auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    gap: 15px;
+    background-color: #fff;
+  }
+  
+  a{
+    text-decoration: none;
+    margin-left: 2vw;
+    padding-top: 2vw;
+    color: blue;
+  }
+
+  /* Individual booking card styling */
+  .booking-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .booking-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Styling for the booking details */
+  .booking-card p {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .booking-card strong {
+    color: #333;
+    font-weight: 600;
+  }
+  
+
+  /* Container for the form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  /* Styling for the labels */
+  label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Styling for the input fields */
+  input[type="text"],
+  input[type="datetime-local"],
+  select {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #fff;
+  }
+  
+  /* Styling for the submit button */
+  input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
